@@ -6,7 +6,7 @@ import { Ionicons, MaterialIcons, Entypo, Feather } from '@expo/vector-icons';
 import ProfileScreen from '../screens/Profile/ProfileScreen';
 import PostItemScreen from '../screens/Post/PostItemScreen';
 import LimboStoreScreen from '../screens/Store/LimboStoreScreen';
-import ClearanceScreen from '../screens/Clearance/ClearanceScreen';
+import ClearanceScreen from '../screens/Categories/ClearanceScreen';
 import InboxScreen from '../screens/Inbox/InboxScreen';
 import HomeScreen from '../screens/Home/HomeScreen';
 
