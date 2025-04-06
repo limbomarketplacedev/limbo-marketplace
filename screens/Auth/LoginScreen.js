@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { View, Text, StyleSheet, TextInput, TouchableOpacity, SafeAreaView, Alert } from 'react-native';
 import { FontAwesome, MaterialIcons } from '@expo/vector-icons';
 import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
-import { useGoogleLogin, useFacebookLogin } from '../../auth/providers';
+import { useGoogleLogin, useFacebookLogin } from './providers';
+
 
 export default function LoginScreen({ navigation }) {
   const [email, setEmail] = useState('');
