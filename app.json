@@ -5,39 +5,26 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/ic.png",
-    "scheme": "limbo",
+    "userInterfaceStyle": "dark",
     "splash": {
       "image": "./assets/sp.png",
       "resizeMode": "contain",
       "backgroundColor": "#000000"
     },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.limbo.marketplace",
-      "buildNumber": "1.0.0",
-      "infoPlist": {
-        "NSCameraUsageDescription": "We need access to your camera to let you upload item photos.",
-        "NSPhotoLibraryUsageDescription": "We need access to your gallery so you can select images."
-      }
+      "bundleIdentifier": "com.limbo.marketplace"
     },
     "android": {
-      "package": "com.limbo.marketplace",
-      "versionCode": 1,
-      "permissions": [
-        "android.permission.CAMERA",
-        "android.permission.READ_EXTERNAL_STORAGE",
-        "android.permission.WRITE_EXTERNAL_STORAGE",
-        "android.permission.RECORD_AUDIO"
-      ]
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.limbo.marketplace"
     },
     "web": {
-      "favicon": "./assets/fav.png"
+      "favicon": "./assets/favicon.png"
     },
     "plugins": [
       "expo-image-picker"
