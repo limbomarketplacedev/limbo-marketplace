@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "Limbo Marketplace",
+    "slug": "limbo-marketplace",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/ic.png",
+    "scheme": "limbo",
+    "splash": {
+      "image": "./assets/sp.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.limbo.marketplace",
+      "buildNumber": "1.0.0",
+      "infoPlist": {
+        "NSCameraUsageDescription": "We need access to your camera to let you upload item photos.",
+        "NSPhotoLibraryUsageDescription": "We need access to your gallery so you can select images."
+      }
+    },
+    "android": {
+      "package": "com.limbo.marketplace",
+      "versionCode": 1,
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/fav.png"
+    },
+    "plugins": [
+      "expo-image-picker"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "b3a170a3-7bd6-4fa8-bf5f-45ca90545001"
+      }
+    }
+  }
+}

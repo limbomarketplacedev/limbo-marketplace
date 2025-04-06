@@ -1,0 +1,50 @@
+USER AGREEMENT
+
+Last Updated: [Insert Date]
+
+Welcome to Limbo Marketplace, operated by Limbo Inc. By accessing or using the app, you agree to be bound by the terms and conditions in this User Agreement. Please read this document carefully.
+
+1. GENERAL TERMS
+- You must be at least 18 years old or have parental consent to use this platform.
+- You are responsible for any activity that occurs under your account.
+- You agree not to use Limbo Marketplace for any unlawful purpose.
+
+2. ACCOUNT & USER CONTENT
+- You may post listings, send messages, and interact with other users, provided your behavior complies with our standards.
+- Any content you upload must be your own or you must have permission to use it.
+- We reserve the right to remove content or suspend accounts for violations of these terms.
+
+3. PRICE DECAY SYSTEM & PATENT-PENDING TECHNOLOGY
+- Limbo Marketplace uses a proprietary pricing model that includes automatic price reduction over time (Price Decay Algorithm).
+- The Price Decay Algorithm and related infrastructure are the intellectual property of Limbo Inc.
+
+4. INTELLECTUAL PROPERTY
+- All content, branding, animations, technology, and algorithms developed for or within Limbo Marketplace, including but not limited to: Limbo Marketplace™, Limbo Inc™, Limbo LLC™, Limbo WorldWide™, and the Price Decay Algorithm™ are the exclusive property of Limbo Inc.
+- You may not copy, reverse-engineer, replicate, or distribute any part of the app’s infrastructure, algorithms, code, visual branding, or documentation without written permission from Limbo Inc.
+- Any unauthorized use, reproduction, or redistribution will be prosecuted under intellectual property law.
+
+5. TERMINATION
+- We reserve the right to suspend or terminate your access at any time for violations of this agreement or any illegal activity.
+
+6. LIABILITY
+- Limbo Inc is not liable for any direct, indirect, incidental, or consequential damages arising from the use of our platform.
+
+7. SUPPORT
+- If you have any trouble using the platform, please contact support through the in-app help system or our official communication channels.
+
+8. ARBITRATION & DISPUTE RESOLUTION
+
+Any dispute, controversy, or claim arising out of or relating to this Agreement, including the breach, termination, or validity thereof, shall be resolved by binding arbitration administered by a recognized arbitration body in accordance with its applicable rules.
+
+By using Limbo Marketplace, you agree to waive your right to a trial by jury or to participate in a class action.
+
+The arbitration shall be conducted on an individual basis in [Insert State, e.g., California], and judgment on the arbitration award may be entered in any court having jurisdiction thereof.
+
+This clause shall survive termination of the Agreement.
+
+9. MODIFICATIONS
+- This User Agreement may be updated occasionally. Continued use after changes constitutes acceptance of the new terms.
+
+By using Limbo Marketplace, you acknowledge that you have read, understood, and agree to be bound by this User Agreement.
+
+© [Insert Year] Limbo Inc. All rights reserved.
