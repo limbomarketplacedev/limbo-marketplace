@@ -20,7 +20,14 @@ export default function App() {
 
   return (
     <NavigationContainer>
-      {user ? <AppStack /> : <AuthStack />}
+      {user === null ? (
+  <WelcomeScreen />
+) : user ? (
+  <AppStack />
+) : (
+  <AuthStack />
+)}
+
     </NavigationContainer>
   );
 }
