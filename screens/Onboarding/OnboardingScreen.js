@@ -1,9 +1,9 @@
 import React from 'react';
 import Onboarding from 'react-native-onboarding-swiper';
 import { View, Text, Image } from 'react-native';
-import slide1 from '../../assets/slide1.png';
-import slide2 from '../../assets/slide2.png';
-import slide3 from '../../assets/slide3.png';
+import slide1 from '../../assets/s1.png';
+import slide2 from '../../assets/s2.png';
+import slide3 from '../../assets/s3.png';
 
 
 export default function OnboardingScreen({ navigation }) {
