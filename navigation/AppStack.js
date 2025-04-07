@@ -9,7 +9,6 @@ import BuyerProfileScreen from '../screens/Profile/BuyerProfileScreen';
 import SubscriptionStatusScreen from '../screens/Profile/SubscriptionStatusScreen';
 import LimboStoreScreen from '../screens/Store/LimboStoreScreen';
 import FavoritesScreen from '../screens/Profile/FavoritesScreen';
-import OnboardingScreen from '../screens/Onboarding/OnboardingScreen';
 import SuccessScreen from '../screens/Post/SuccessScreen';
 import InboxScreen from '../screens/Inbox/InboxScreen';
 import ChatScreen from '../screens/Inbox/ChatScreen';
@@ -32,7 +31,6 @@ export default function AppStack() {
       <Stack.Screen name="SubscriptionStatus" component={SubscriptionStatusScreen} />
       <Stack.Screen name="LimboStore" component={LimboStoreScreen} />
       <Stack.Screen name="Favorites" component={FavoritesScreen} />
-      <Stack.Screen name="Onboarding" component={OnboardingScreen} />
       <Stack.Screen name="Success" component={SuccessScreen} />
       <Stack.Screen name="Inbox" component={InboxScreen} />
       <Stack.Screen name="Chat" component={ChatScreen} />
