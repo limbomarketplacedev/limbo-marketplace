@@ -11,7 +11,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#000000"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.limbo.marketplace"
@@ -21,7 +23,10 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#000000"
       },
-      "package": "com.limbo.marketplace"
+      "package": "com.limbo.marketplace",
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -33,6 +38,7 @@
       "eas": {
         "projectId": "b3a170a3-7bd6-4fa8-bf5f-45ca90545001"
       }
-    }
+    },
+    "owner": "andrelimbo"
   }
 }
