@@ -1,51 +1,62 @@
 import React from 'react';
-import { View, Text, StyleSheet, TextInput, TouchableOpacity, SafeAreaView } from 'react-native';
+import {
+  View, Text, TextInput, TouchableOpacity,
+  StyleSheet, KeyboardAvoidingView, Platform,
+  TouchableWithoutFeedback, Keyboard, ScrollView
+} from 'react-native';
 import { FontAwesome, MaterialIcons } from '@expo/vector-icons';
 
 export default function RegisterScreen({ navigation }) {
   return (
-    <SafeAreaView style={styles.container}>
-      <Text style={styles.title}>Create an Account</Text>
+    <KeyboardAvoidingView
+      behavior={Platform.OS === 'ios' ? 'padding' : undefined}
+      style={{ flex: 1 }}
+    >
+      <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
+        <ScrollView contentContainerStyle={styles.container}>
+          <Text style={styles.title}>Create an Account</Text>
 
-      <TextInput style={styles.input} placeholder="Name" placeholderTextColor="#aaa" />
-      <TextInput style={styles.input} placeholder="Email" placeholderTextColor="#aaa" />
-      <TextInput style={styles.input} placeholder="Password" secureTextEntry placeholderTextColor="#aaa" />
-      <TextInput style={styles.input} placeholder="Confirm Password" secureTextEntry placeholderTextColor="#aaa" />
+          <TextInput style={styles.input} placeholder="Name" placeholderTextColor="#aaa" />
+          <TextInput style={styles.input} placeholder="Email" placeholderTextColor="#aaa" />
+          <TextInput style={styles.input} placeholder="Password" secureTextEntry placeholderTextColor="#aaa" />
+          <TextInput style={styles.input} placeholder="Confirm Password" secureTextEntry placeholderTextColor="#aaa" />
 
-      <TouchableOpacity style={styles.registerButton}>
-        <Text style={styles.registerText}>Register</Text>
-      </TouchableOpacity>
+          <TouchableOpacity style={styles.registerButton}>
+            <Text style={styles.registerText}>Register</Text>
+          </TouchableOpacity>
 
-      <Text style={styles.or}>or sign up with</Text>
+          <Text style={styles.or}>or sign up with</Text>
 
-      <View style={styles.socialRow}>
-        <TouchableOpacity style={styles.socialButton}>
-          <FontAwesome name="google" size={24} color="#fff" />
-        </TouchableOpacity>
-        <TouchableOpacity style={styles.socialButton}>
-          <FontAwesome name="facebook" size={24} color="#fff" />
-        </TouchableOpacity>
-        <TouchableOpacity style={styles.socialButton}>
-          <MaterialIcons name="email" size={24} color="#fff" />
-        </TouchableOpacity>
-        <TouchableOpacity style={styles.socialButton}>
-          <MaterialIcons name="phone" size={24} color="#fff" />
-        </TouchableOpacity>
-      </View>
+          <View style={styles.socialRow}>
+            <TouchableOpacity style={styles.socialButton}>
+              <FontAwesome name="google" size={24} color="#fff" />
+            </TouchableOpacity>
+            <TouchableOpacity style={styles.socialButton}>
+              <FontAwesome name="facebook" size={24} color="#fff" />
+            </TouchableOpacity>
+            <TouchableOpacity style={styles.socialButton}>
+              <MaterialIcons name="email" size={24} color="#fff" />
+            </TouchableOpacity>
+            <TouchableOpacity style={styles.socialButton}>
+              <MaterialIcons name="phone" size={24} color="#fff" />
+            </TouchableOpacity>
+          </View>
 
-      <TouchableOpacity onPress={() => navigation.navigate('Login')}>
-        <Text style={styles.loginLink}>Already have an account? Login</Text>
-      </TouchableOpacity>
-    </SafeAreaView>
+          <TouchableOpacity onPress={() => navigation.navigate('Login')}>
+            <Text style={styles.loginLink}>Already have an account? Login</Text>
+          </TouchableOpacity>
+        </ScrollView>
+      </TouchableWithoutFeedback>
+    </KeyboardAvoidingView>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
     backgroundColor: '#000',
-    justifyContent: 'center',
     padding: 20,
+    justifyContent: 'center',
+    flexGrow: 1,
   },
   title: {
     fontSize: 28,
